@@ -18,7 +18,6 @@ public class Player extends Entity{
         super(x, y);
     }
     public void tecladoInput(){
-   
         if(Gdx.input.isKeyJustPressed(Input.Keys.W) || Gdx.input.isKeyJustPressed(Input.Keys.UP))
             y+=Constantes.TILE_SIZE;
         if(Gdx.input.isKeyJustPressed(Input.Keys.S) || Gdx.input.isKeyJustPressed(Input.Keys.DOWN))
